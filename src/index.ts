@@ -1,4 +1,7 @@
-export const phonecodes: any = {
+export interface Phones {
+  [key: string]: string;
+}
+export const phonecodes: Phones = {
   '1':   'CA:CAN,US:USA',
   '20':  'EG:EGY',
   '211': 'SS:SSD',
